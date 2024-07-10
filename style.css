@@ -13,14 +13,32 @@ html, body{
     height: 100px;
     background-color: peru;
     animation-name: am;
-    animation-duration: 2s;
-    animation-delay: 1s;
+    animation-duration: 20s;
+    animation-delay: 1s;;
 }
 @keyframes am{
     0%{
+        top: 0;
         left: 0%;
     }
-    100%{
+    25%{
+        top: 0;
         left: 90%;
+        background-color: black;
+    }
+    50%{
+        top: 80%;
+        left: 90%;
+        background-color: blueviolet;
+    }
+    75%{
+        top: 80%;
+        left: 0%;
+        background-color: goldenrod;
+    }
+    100%{
+        top: 0;
+        left: 0%;
+        background-color: peru;
     }
 }
